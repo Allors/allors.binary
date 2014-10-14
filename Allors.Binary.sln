@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allors.Binary", "Allors.Binary\Allors.Binary.csproj", "{59F414FB-BFC7-430E-8442-9829E1F0C4DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allors.Binary.Tests", "Allors.Binary.Tests\Allors.Binary.Tests.csproj", "{BA8B4AC9-873B-4D52-B0DD-6F6E03FF7F7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allors.Binary.Tests.ReferencedAssembly", "Allors.Binary.Tests.ReferencedAssembly\Allors.Binary.Tests.ReferencedAssembly.csproj", "{1CCF8693-E4A1-4A11-8232-BA23DCAD34AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allors.Binary.Tests.SubstitutableAssembly", "Allors.Binary.Tests.SubstitutableAssembly\Allors.Binary.Tests.SubstitutableAssembly.csproj", "{C7CE3422-C331-4974-B2CD-0602EADF7C5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Allors.Binary.Tests.SubstituteAssembly", "Allors.Binary.Tests.SubstituteAssembly\Allors.Binary.Tests.SubstituteAssembly.csproj", "{1E3FF444-50DF-433E-A3AE-4050DA53ADF7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{CAF87A76-6D47-4815-A1F9-F7B763022B3A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59F414FB-BFC7-430E-8442-9829E1F0C4DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F414FB-BFC7-430E-8442-9829E1F0C4DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F414FB-BFC7-430E-8442-9829E1F0C4DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F414FB-BFC7-430E-8442-9829E1F0C4DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA8B4AC9-873B-4D52-B0DD-6F6E03FF7F7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA8B4AC9-873B-4D52-B0DD-6F6E03FF7F7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA8B4AC9-873B-4D52-B0DD-6F6E03FF7F7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA8B4AC9-873B-4D52-B0DD-6F6E03FF7F7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CCF8693-E4A1-4A11-8232-BA23DCAD34AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CCF8693-E4A1-4A11-8232-BA23DCAD34AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CCF8693-E4A1-4A11-8232-BA23DCAD34AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CCF8693-E4A1-4A11-8232-BA23DCAD34AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7CE3422-C331-4974-B2CD-0602EADF7C5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7CE3422-C331-4974-B2CD-0602EADF7C5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7CE3422-C331-4974-B2CD-0602EADF7C5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7CE3422-C331-4974-B2CD-0602EADF7C5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E3FF444-50DF-433E-A3AE-4050DA53ADF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E3FF444-50DF-433E-A3AE-4050DA53ADF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E3FF444-50DF-433E-A3AE-4050DA53ADF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E3FF444-50DF-433E-A3AE-4050DA53ADF7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Allors.Binary\Allors.Binary.csproj
+	EndGlobalSection
+	GlobalSection(TextTemplating) = postSolution
+		TextTemplating = 1
+	EndGlobalSection
+EndGlobal

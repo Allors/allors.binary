@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://www.gnu.org/licenses/lgpl.html</licenseUrl>
+    <projectUrl>http://www.allors.org/Binary</projectUrl>
+    <iconUrl>http://www.allors.org/images/nuget.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes></releaseNotes>
+    <copyright>(c) 2014 allors bvba</copyright>
+    <tags></tags>
+  </metadata>
+</package>

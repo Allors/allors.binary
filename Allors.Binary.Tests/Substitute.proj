@@ -1,0 +1,11 @@
+<Project DefaultTargets="Substitute" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+
+  <UsingTask TaskName="Substitute" AssemblyFile="bin\debug\Allors.Binary.dll"/>
+
+  <Target Name="Substitute">
+    <Substitute Input="bin\debug\Allors.Binary.Tests.SubstitutableAssembly.dll" Substitutes="bin\debug\Allors.Binary.Tests.SubstituteAssembly.dll"/>
+  </Target>
+
+</Project>
+
+
